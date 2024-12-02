@@ -1,0 +1,11 @@
+[project]
+name = "ocr-lista-materiais"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3-stubs[textract]>=1.35.71",
+    "boto3>=1.35.71",
+    "pathlib>=1.0.1",
+]
